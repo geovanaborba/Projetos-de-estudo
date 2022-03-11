@@ -8,13 +8,13 @@ public class JogoDirecao {
 		System.out.println("Você está perdido no meio da floresta e precisa voltar para casa. ...");
 		System.out.println("Escolha uma direção para tentar achar o caminho de volta (w, d, s, a):");
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner leitor = new Scanner(System.in);
 		
 		String op;
 		
 		do {
 			
-			op = scan.nextLine();
+			op = leitor.nextLine();
 			
 			if(op.equals("w")) {
 				System.out.println("Você caminha por muito tempo e encontra uma imensa parede que se estende muito! Você volta um pouco e precisa encontrar outra direção!");
